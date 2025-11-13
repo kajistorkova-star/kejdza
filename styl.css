@@ -1,0 +1,103 @@
+/* styl.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Velmi světle modrá pro pozadí */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #66b3ff; /* Středně modrá pro hlavičku */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #0088cc; /* Tmavě modrý proužek */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #80c0ff; /* Světlejší modrá pro navigaci */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0077b3; /* Tmavší modrá při najetí myší */
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #cccccc;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #0066cc; /* Modrá pro nadpisy */
+    border-bottom: 2px solid #b3d9ff;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border: 3px solid #66b3ff;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul.seznam-tipu {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #66b3ff;
+    color: white;
+    margin-top: 30px;
+}
